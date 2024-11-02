@@ -43,6 +43,8 @@ jobs:
           node-version: 21
           cache: pnpm
           cache-dependency-path: pnpm-lock.yaml
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
 
       - name: Lint
         run: pnpm run lint
@@ -65,6 +67,8 @@ jobs:
           node-version: 21
           cache: pnpm
           cache-dependency-path: pnpm-lock.yaml
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
 
       - name: Test
         run: pnpm run test
