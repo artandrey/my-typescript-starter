@@ -33,7 +33,7 @@
     "prettier": "^3.9.4",
     "tsc-files": "^1.1.4",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.60.1",
+    "typescript-eslint": "^8.62.1",
     "vitest": "^3.2.4"
   }
 }
